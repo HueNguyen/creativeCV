@@ -189,13 +189,13 @@ header{
     margin-top: 15px;
 }
 /*education*/
-#icon-add-education{
+#btn-add-education{
     position: absolute;
-    bottom: 50px;
+    bottom: 15px;
     right: 30px;
-    background-color: #1babe0;
-    color: white;
-    padding: 10px 12px;
-    border-radius: 30px;
-    cursor: pointer;
+    /*background-color: #1babe0;*/
+    /*color: white;*/
+    /*padding: 10px 12px;*/
+    /*border-radius: 30px;*/
+    /*cursor: pointer;*/
 }

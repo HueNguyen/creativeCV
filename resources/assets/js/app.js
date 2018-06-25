@@ -20,6 +20,8 @@ Vue.component('skill', require('./components/admin/home/Skill.vue'));
 Vue.component('education', require('./components/admin/home/Education.vue'));
 Vue.component('profile', require('./components/admin/home/Profile.vue'));
 Vue.component('favorite', require('./components/admin/home/Favorite.vue'));
+Vue.component('experience', require('./components/admin/home/Experience.vue'));
+Vue.component('password', require('./components/admin/home/Password.vue'));
 
 const app = new Vue({
     el: '#app'

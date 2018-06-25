@@ -45,7 +45,7 @@
                 <!--end date-->
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="edu-end-date" class="col-sm-2 control-label">Start date</label>
+                        <label for="edu-end-date" class="col-sm-2 control-label">End date</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="edu-end-date" placeholder="dd/MM/yyyy">
                         </div>
@@ -102,9 +102,9 @@
         <div class="row">
             <div class="col-md-12 pad-bot-15">
                 <div class="form-group">
-                    <label for="edu-scription" class="col-md-1 control-label">Description</label>
+                    <label for="edu-description" class="col-md-1 control-label">Description</label>
                     <div class="col-md-11 pad-left-15 pad-right-15">
-                        <textarea class="form-control" rows="5" id="edu-scription" placeholder="Description(0-1000 characters)"></textarea>
+                        <textarea class="form-control" rows="5" id="edu-description" placeholder="Description(0-1000 characters)"></textarea>
                     </div>
                 </div>
             </div>

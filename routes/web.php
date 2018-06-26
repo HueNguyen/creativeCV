@@ -14,6 +14,9 @@
 Route::get('/admin', function () {
     return view('admins.home');
 });
+Route::get('/', function () {
+    return view('admins.home');
+});
 Route::get('/admin/education', function () {
     return view('admins.education');
 });

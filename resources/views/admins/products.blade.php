@@ -7,7 +7,7 @@
         <div class="col-md-2"></div>
         <div class="col-md-10 main-content">
             <div style="padding: 15px">
-                <p>product</p>
+                <product-manage></product-manage>
             </div>
         </div>
     </div>

@@ -123,15 +123,30 @@
         <div class="row">
             <div class="col-md-12 pad-bot-15">
                 <div class="form-group">
-                    <label for="edu-description" class="col-md-1 control-label">Description</label>
+                    <label class="col-md-1 control-label">Description</label>
                     <div class="col-md-11 pad-left-15 pad-right-15">
-                        <textarea class="form-control" rows="5" id="edu-description" placeholder="Description(0-1000 characters)"></textarea>
+                        <!--<textarea class="form-control" rows="5" id="edu-description" placeholder="Description(0-1000 characters)"></textarea>-->
+                        <ckeditor></ckeditor>
                     </div>
-                    <ckeditor></ckeditor>
+
                 </div>
             </div>
         </div>
         <!--end description-->
+        <!--button save-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-8">
+                            <button type="button" class="btn btn-primary">Save change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end button save-->
     </div>
 </template>
 

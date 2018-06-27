@@ -18,3 +18,7 @@
         </div>
     </div>
 @endsection
+
+@section('script')
+    <script src="{{ URL::asset('js/education.js') }}"></script>
+@endsection

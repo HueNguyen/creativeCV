@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div class="data-content">
+        <h4>EDUCATION</h4>
         <div class="row">
             <div class="col-md-12 pad-bot-15">
                 <!--name-->
@@ -57,30 +58,26 @@
         <!--end date-->
         <div class="row">
             <div class="col-md-12 pad-bot-15">
-                <!--start date-->
+                <!--address-->
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">Config</label>
+                        <label for="edu-address" class="col-sm-2 control-label">Address</label>
                         <div class="col-sm-9">
-                            <label>
-                                <input type="checkbox"> Show in homepage(2 items)
-                            </label>
+                            <input type="text" class="form-control" id="edu-address" placeholder="Address">
                         </div>
                     </div>
                 </div>
-                <!--end start date-->
-                <!--end date-->
+                <!--end address-->
+                <!--specialized-->
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label class="col-sm-2 control-label"></label>
+                        <label for="edu-website" class="col-sm-2 control-label">Website</label>
                         <div class="col-sm-10">
-                            <label>
-                                <input type="checkbox"> Show in EducationPage(1 items)
-                            </label>
+                            <input type="text" class="form-control" id="edu-website" placeholder="Address">
                         </div>
                     </div>
                 </div>
-                <!--end end-date-->
+                <!--end specialized-->
             </div>
         </div>
         <!--image-->
@@ -102,10 +99,36 @@
         <div class="row">
             <div class="col-md-12 pad-bot-15">
                 <div class="form-group">
-                    <label for="edu-description" class="col-md-1 control-label">Description</label>
+                    <label for="edu-slug" class="col-md-1 control-label">Slug</label>
                     <div class="col-md-11 pad-left-15 pad-right-15">
-                        <textarea class="form-control" rows="5" id="edu-description" placeholder="Description(0-1000 characters)"></textarea>
+                        <textarea class="form-control" rows="5" id="edu-slug" placeholder="Description(0-1000 characters)"></textarea>
                     </div>
+                </div>
+            </div>
+        </div>
+        <!--end description-->
+        <!--description-->
+        <div class="row">
+            <div class="col-md-12 pad-bot-15">
+                <div class="form-group">
+                    <label for="edu-about" class="col-md-1 control-label">Think about this</label>
+                    <div class="col-md-11 pad-left-15 pad-right-15">
+                        <textarea class="form-control" rows="5" id="edu-about" placeholder="Description(0-1000 characters)"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end description-->
+        <!--description-->
+        <div class="row">
+            <div class="col-md-12 pad-bot-15">
+                <div class="form-group">
+                    <label class="col-md-1 control-label">Description</label>
+                    <div class="col-md-11 pad-left-15 pad-right-15">
+                        <!--<textarea class="form-control" rows="5" id="edu-description" placeholder="Description(0-1000 characters)"></textarea>-->
+                        <ckeditor></ckeditor>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -117,8 +140,7 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label"></label>
                         <div class="col-sm-8">
-                            <button type="button" class="btn btn-primary">Save</button>
-                            <button type="button" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-primary">Save change</button>
                         </div>
                     </div>
                 </div>
@@ -132,6 +154,9 @@
     export default {
         mounted() {
             console.log('Component mounted.')
+        },
+        components: {
+//            'ckeditor': CKEditor
         }
     }
 </script>

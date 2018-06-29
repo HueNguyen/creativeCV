@@ -25,9 +25,9 @@
                 <!--<span class="sr-only">90% Complete (danger)</span>-->
             </div>
         </div>
-        <button type="button" class="btn btn-primary">Add</button>
+        <button type="button" class="btn btn-success" id="btn-add-skill"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add</button>
         <!--form add skill-->
-        <div class="for-add-skill">
+        <div class="form-add-skill">
             <div class="pad-top-15">
                 <select class="form-control">
                     <option>--Select Skill--</option>
@@ -64,8 +64,10 @@
                     <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
                 </p>
             </div>
-            <button type="button" class="btn btn-primary">Save</button>
-            <button type="button" class="btn btn-default">Cancle</button>
+            <div style="text-align: right">
+                <button type="button" class="btn btn-primary">Save</button>
+                <button type="button" class="btn btn-default">Cancle</button>
+            </div>
         </div>
         <!--end form add skill-->
     </div>

@@ -55,7 +55,7 @@ body{
     min-height: 100vh;
     background-color: #f6f6f6;
 }
-.col-md-2, .col-md-10, .col-md-9, .col-md-6, .col-md-4, .col-md-8{
+.col-md-2, .col-md-10, .col-md-9, .col-md-6, .col-md-4, .col-md-8, .col-md-3{
     padding: 0!important;
 }
 /*.sidebar-menu-box{*/
@@ -124,6 +124,17 @@ header{
     position: fixed;
     z-index: 99999;
 }
+header {
+
+}
+#content-logout {
+    margin-top: 25px;
+    padding-right: 30px;
+    text-align: right!important;
+}
+#title-header-admin {
+    padding-top: 15px;
+}
 .form-group label{
     padding-top: 7px!important;
     padding-left: 0;
@@ -182,14 +193,15 @@ header{
     font-size: 13px;
     margin-top: -5px;
 }
-.for-add-skill{
+.form-add-skill, .form-add-favorite, .form-change-password{
     border:1px solid lightgrey;
     border-radius: 3px;
     padding: 0 15px 15px;
     margin-top: 15px;
+    background-color: #f9f9f9;
 }
 /*education*/
-#btn-add-education{
+#btn-add-education, #btn-add-experience{
     position: absolute;
     bottom: 15px;
     right: 30px;
@@ -198,4 +210,51 @@ header{
     /*padding: 10px 12px;*/
     /*border-radius: 30px;*/
     /*cursor: pointer;*/
+}
+/*favorite*/
+.title-favorite{
+    margin: 0;
+}
+.thumbnail{
+    margin-bottom: 0!important;
+}
+.box-favorite{
+    position: relative;
+}
+.box-favorite a{
+    float: right;
+    margin-left: 10px;
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+    font-size: 12px;
+    /*margin-top: 7px;*/
+}
+.box-favorite h3{
+    font-size: 20px;
+}
+/*change password*/
+.form-change-password .form-group{
+    margin-bottom: 0;
+}
+/*education library*/
+.edu-library .thumbnail{
+    border: none;
+    cursor: pointer;
+}
+.data-content .pagination{
+    margin: 0!important;
+    float: right;
+}
+/*manage product*/
+#wrap-product-detail {
+    /*background-color: #ebebeb;*/
+    border-top: 1px solid lightgrey;
+    margin: 15px;
+}
+#button-add-image{
+    width: 100%;
+    text-align: center;
+    padding-left: 70px;
+    margin-top: 50px;
 }

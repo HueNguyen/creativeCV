@@ -20,7 +20,7 @@
             </div>
             @include('parts.sidebar')
         </div>
-        <header></header>
+        @include('parts.menu_admin')
         <div class="container-fluid main-wrap">
             <div id="app">
                 @yield('content')
